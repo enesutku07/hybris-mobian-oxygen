@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="geminids14" fetch="https://github.com" />
+
+  
+ <!-- Galaxy J5 (SM-J500H - j53gxx) || (J500F-G-M-Y - j5lte) || (J500FN - j5nlte) || (J5008 - j5ltechn) || (J510FN - j5xnlte) -->
+  <project path="device/xiaomi/oxygen" name="enesutku07/android_device_xiaomi_msm8953-common-1" groups="device" remote="geminids14" revision="lineage-16.0"/>
+  <project path="device/xiaomi/msm8953-common"     name="gAnkaos/android_device_xiaomi_oxygen-los-16.0"     groups="device" remote="geminids14" revision="lineage-16.0"/>
+
+ <!-- Dependencies -->
+  <project path="kernel/xiaomi/msm8953"    name="enesutku07/Kernel_xiaomi_oxygen"    remote="geminids14" revision="lineage-16.0"/>
+    <!--LineageOS/ -->
+ <!-- xiaomi Hardware Repo -->
+  <project path="vendor/xiaomi" name="geminids14/android_vendor_xiaomi_oxygen" remote="geminids14" revision="havoc-pie"/>
+</manifest>
+
